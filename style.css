@@ -9,10 +9,99 @@ body{
 .line{
     border: 10px solid rgb(163, 168, 163);
   border-radius: 5px;
+  
 }
 .hero-img{
     width: 1000px;
+   
 }
+#print{
+  float: right;
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+#pr{
+  float: right;
+  font-size: xx-small;
+}
+.list{
+  position: absolute;
+  top: 1150px;
+  left: 150px;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'MuseoModerno', cursive;
+ 
+  list-style-type:  circle ;
+
+}
+.list2{
+  position: absolute;
+  top: 1150px;
+  right: 300px;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'MuseoModerno', cursive;
+
+
+}
+ul{
+
+  list-style-type:  circle ;
+}
+.check{
+  width: 1000px;
+  margin: auto;
+}
+.text1{
+  position: absolute;
+  top: 1430px;
+  left: 220px;
+  /* font-size: ; */
+}
+.botton{
+  background-color: hsl(0, 81%, 65%);
+  border: none;
+  color: white;
+  padding: 2px 30px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 1px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 1430px;
+  right: 130px;
+}
+.text2{
+  position: absolute;
+  top: 1450px;
+  left: 220px;
+
+}
+.smlog{
+  position: absolute;
+  top: 1488px;
+  right: 650px;
+  
+}
+footer{
+  position: absolute;
+  top: 1520px;
+  right: 550px;
+  color: gray;
+}
+.lo{
+  position: absolute;
+  top: 8px;
+  left: 220px;
+
+}
+
+
+
+
+
 /* body{
   
   }
